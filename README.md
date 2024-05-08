@@ -5,6 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Create nextjs app
 npx create-next-app
 
+After that install dependencies
+npm install bcrypt mongodb mongoose next-auth
+
 run the development server:
 
 ```bash
