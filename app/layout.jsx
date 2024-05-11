@@ -1,4 +1,6 @@
 import '@/styles/global.css';
+import Nav from '@components/Nav';
+import Provider from '@components/Provider';
 export const metadata = {
     title: 'Promptpie NextJs Application',
     description: 'AI base propmt application using NextJs.'
@@ -9,12 +11,18 @@ const RootLayout = ({ children }) => {
       <html lang="en">
           <head></head>
           <body>
+          <Provider>
               <div className="main">
                   <div className="gradient"/>
               </div>
-              <main className="root">
+              <main className="app">̀
+                  
+                  <Nav/>
                   {children}
-              </main>
+                  
+                  
+                  </main>
+                  </Provider>
           </body>
     </html>
   )

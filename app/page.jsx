@@ -1,6 +1,14 @@
+import Feed from "@components/Feed";
 export const Home = () => {
   return (
-    <section>Home</section>
+      <section className="w-full flex-center flex-col">
+          <h1 className="head_text text-center">Discover & share <br />
+              <span className="orange_gradient">AI Powered Prompts</span></h1>
+          <p className="desc text-center">
+              Promptpie is nextjs based application. It is helps to create and share modern world propmts.
+      </p>
+      <Feed/>
+      </section>
   )
 }
 
