@@ -12,7 +12,7 @@ const Nav = () => {
     useEffect(() => {
         (async () => {
             const provider = await getProviders();
-            console.log('provider', provider);
+            //console.log('provider', provider);
             setProviders(provider);
         })();
 
